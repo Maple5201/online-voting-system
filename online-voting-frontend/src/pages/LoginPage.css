@@ -1,0 +1,80 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #f0f4f8);
+}
+
+.login-card {
+  background-color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 350px;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #6b7280;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.6rem 0.6rem 0.6rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-button.user {
+  background-color: #3b82f6;
+}
+.login-button.user:hover {
+  background-color: #2563eb;
+}
+
+.login-button.admin {
+  background-color: #10b981;
+}
+.login-button.admin:hover {
+  background-color: #059669;
+}
+
+.login-button.register {
+  background-color: #6b7280;
+}
+.login-button.register:hover {
+  background-color: #4b5563;
+}
