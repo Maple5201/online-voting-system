@@ -46,6 +46,29 @@ online-voting-system/
 └── online-voting-frontend/   # React frontend
 ```
 
+## Screenshots
+
+### System Architecture
+![System Architecture](screenshots/system_architecture.png)
+
+### Login Page
+![Login Page](screenshots/login_page.png)
+
+### Registration Page
+![Registration Page](screenshots/registration_page.png)
+
+### Candidate List
+![Candidate List](screenshots/candidate_list.png)
+
+### Admin Homepage
+![Admin Homepage](screenshots/admin_homepage.png)
+
+### Candidate Creation
+![Candidate Creation](screenshots/candidate_creation.png)
+
+### Database Design
+![Database ERD](screenshots/database_erd.png)
+
 ## Backend Overview
 
 The backend provides RESTful APIs for authentication, candidate management, voting, and result retrieval. Spring Security and JWT are used to protect routes and control access between normal users and admin users.
