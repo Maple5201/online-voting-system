@@ -81,6 +81,22 @@ The system uses MySQL to store user, candidate, and vote information. The main d
 
 The voting logic is designed to ensure that each user can only vote once. Vote records are stored in the database and used to calculate voting results.
 
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/auth/register` | Register a new user |
+| POST | `/auth/login` | Authenticate a user and return a JWT token |
+| GET | `/auth/me` | Retrieve the current authenticated user |
+| GET | `/candidates` | Retrieve all candidates |
+| POST | `/candidates` | Create a new candidate with optional image upload, admin only |
+| GET | `/users` | Retrieve all user records |
+| POST | `/users` | Create a user record |
+| POST | `/votes` | Submit a vote for a candidate |
+| GET | `/votes/results` | Retrieve aggregated voting results |
+
+Some endpoints require JWT authentication. Candidate creation is restricted to admin users.
+
 ## API Testing
 
 Core API workflows were tested using Postman, including:
